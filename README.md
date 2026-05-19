@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏛️ LayanDesa - Website Pelayanan Publik Desa Berbasis Web
 
 **LayanDesa** adalah website fullstack untuk pelayanan publik desa yang dibangun menggunakan PHP Native, MySQL, HTML, CSS, dan JavaScript.
@@ -222,3 +223,7 @@ Email     : desa.sukamaju@gmail.com
 ---
 
 *Dibuat dengan ❤️ untuk masyarakat desa Indonesia.*
+=======
+# LayanDesa
+LayanDesa merupakan sistem informasi pelayanan publik desa berbasis web yang dirancang untuk meningkatkan kualitas layanan kepada masyarakat. Website ini menyediakan fitur berita, pengumuman, informasi layanan, serta komunikasi antara warga dan pihak desa secara digital.
+>>>>>>> 19befaf4d3ec5c919e06aa581be4cc4b6506551e
