@@ -1,0 +1,6 @@
+# Keamanan Dasar - LayanDesa
+# Larang akses langsung ke folder config
+# Letakkan .htaccess ini di dalam folder /config/
+
+Options -Indexes
+Deny from all

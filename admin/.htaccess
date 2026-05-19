@@ -1,0 +1,20 @@
+# Keamanan Admin - LayanDesa
+# Blokir akses langsung ke file tertentu
+
+Options -Indexes
+
+# Larang akses langsung ke auth.php dan layout files
+<Files "auth.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "layout.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "layout_end.php">
+    Order Deny,Allow
+    Deny from all
+</Files>

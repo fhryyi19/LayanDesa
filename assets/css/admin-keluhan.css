@@ -1,0 +1,178 @@
+/* ==========================================================================
+   ADMIN KELUHAN STYLES
+   ========================================================================== */
+
+/* Search & Filter Bar */
+.keluhan-filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.admin-search-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    width: 200px;
+}
+
+.admin-filter-select {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    background: #fff;
+}
+
+/* Badges */
+.kode-tiket-badge {
+    background: rgba(26, 107, 60, 0.1);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.kat-badge {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.admin-status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.admin-status-badge--lg {
+    padding: 0.35rem 1rem;
+    font-size: 0.85rem;
+}
+
+.admin-status-badge--menunggu { background: #fffbeb; color: #d97706; border: 1px solid #fcd34d; }
+.admin-status-badge--diterima { background: #f0fdf4; color: #059669; border: 1px solid #86efac; }
+.admin-status-badge--diproses { background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+.admin-status-badge--selesai  { background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; }
+.admin-status-badge--ditolak  { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+
+.tr-highlight-new {
+    background-color: #fffbeb !important;
+}
+
+.tr-highlight-new td {
+    font-weight: 500;
+}
+
+/* Form Elements */
+.admin-select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.admin-select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(26, 107, 60, 0.1);
+}
+
+.admin-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: all 0.2s ease;
+}
+
+.admin-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(26, 107, 60, 0.1);
+}
+
+/* Alerts */
+.alert-admin {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.alert-admin--success {
+    background: #f0fdf4;
+    color: #059669;
+    border: 1px solid #86efac;
+}
+
+.alert-admin--danger {
+    background: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+}
+
+/* Timeline */
+.admin-timeline {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.admin-timeline::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 7px;
+    width: 2px;
+    background: var(--border);
+}
+
+.admin-timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.admin-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.admin-tl-dot {
+    position: absolute;
+    left: -1.5rem;
+    top: 0.25rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid var(--border);
+    transform: translateX(0.5px);
+    z-index: 2;
+}
+
+.admin-tl-sistem .admin-tl-dot { border-color: #64748b; }
+.admin-tl-status_update .admin-tl-dot { border-color: var(--primary); }
+.admin-tl-tanggapan .admin-tl-dot { border-color: #3b82f6; }
+
+.admin-tl-content {
+    background: #f8fafc;
+    border: 1px solid rgba(0,0,0,0.03);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+}
