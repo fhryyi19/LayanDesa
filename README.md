@@ -163,7 +163,7 @@ Panel Admin    : http://localhost/layandesa/admin/login.php
 | Field    | Value       |
 |----------|-------------|
 | Username | `admin`     |
-| Password | `admin123`  |
+| Password | `password`  |
 
 > **Cara ganti password:**
 > 1. Buka `http://localhost/layandesa/generate_password.php`
